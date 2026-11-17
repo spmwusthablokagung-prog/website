@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Dasbor Admin | Muadalah Wustha Al-Amiriyyah</title>
+<link rel="icon" type="image/webp" href="data:image/webp;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --marun:#7E1735; --marun-tua:#5C0F26; --marun-gelap:#3A0818; --marun-muda:#FBF2F4;
+  --kuning:#FDD100; --garis:#EBD5DB; --teks:#2D2D2D; --lembut:#6b5f64;
+  --hijau:#2d7a00; --merah:#b3261e; --bg:#F6F1F3; --radius:14px;
+  --font:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:130px}
+body{margin:0;font:400 16px/1.6 var(--font);color:var(--teks);background:var(--bg);-webkit-font-smoothing:antialiased}
+[hidden]{display:none!important}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;color:var(--marun-tua);margin:0 0 .4em;line-height:1.25}
+p{margin:0 0 .8em}
+:focus-visible{outline:3px solid var(--marun);outline-offset:2px;border-radius:6px}
+button,input,select,textarea{font:inherit;color:inherit}
+
+/* ---------- tombol ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.45rem;min-height:46px;padding:.6rem 1.2rem;border-radius:999px;border:2px solid transparent;font-weight:600;font-size:.95rem;cursor:pointer;text-decoration:none;transition:.2s;background:var(--marun);color:#fff}
+.btn:hover:not(:disabled){background:var(--marun-tua)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.btn.sek{background:#fff;color:var(--marun);border-color:var(--marun)}
+.btn.sek:hover:not(:disabled){background:var(--marun-muda)}
+.btn.kuning{background:var(--kuning);color:var(--marun-gelap)}
+.btn.kuning:hover:not(:disabled){background:#ffe14d}
+.btn.kecil{min-height:40px;padding:.35rem .9rem;font-size:.88rem}
+.btn.bahaya{background:#fff;color:var(--merah);border-color:#e3b7b3}
+.btn.bahaya:hover:not(:disabled){background:#fdeceb}
+.btn.ikon{min-height:40px;min-width:40px;padding:0;font-size:1rem}
+
+/* ---------- login ---------- */
+.login{min-height:100vh;display:grid;place-items:center;padding:1.2rem;background:linear-gradient(160deg,var(--marun-gelap),var(--marun-tua) 60%,var(--marun))}
+.login-kartu{width:min(440px,100%);background:#fff;border-radius:22px;padding:2rem 1.6rem 1.6rem;box-shadow:0 24px 60px rgba(0,0,0,.35);border-top:6px solid var(--kuning)}
+.login-kartu .logo{display:block;width:84px;height:84px;margin:-3.6rem auto .8rem;border-radius:50%;background:#fff;padding:5px;box-shadow:0 0 0 4px var(--kuning),0 8px 20px rgba(0,0,0,.25)}
+.login-kartu h1{text-align:center;font-size:1.5rem}
+.login-kartu .sub{text-align:center;color:var(--lembut);font-size:.92rem;margin-bottom:1.2rem}
+.galat{color:var(--merah);font-size:.92rem;min-height:1.4em;margin:.4rem 0 .6rem}
+.sandi-baris{position:relative}
+.sandi-baris input{padding-right:3.2rem}
+.sandi-baris button{position:absolute;right:4px;top:4px;min-width:44px;height:44px;border:0;background:none;cursor:pointer;font-size:1.1rem;border-radius:10px}
+.ingat{display:flex;align-items:center;gap:.6rem;font-size:.92rem;margin:.2rem 0 1rem;cursor:pointer;min-height:44px}
+.ingat input{width:20px;height:20px;accent-color:var(--marun)}
+
+/* ---------- bentuk isian ---------- */
+.fld{margin-bottom:1.1rem}
+.fld>label,.fld>.lab{display:flex;align-items:center;flex-wrap:wrap;gap:.5rem;font-weight:600;font-size:.92rem;color:var(--marun-tua);margin-bottom:.3rem}
+.bantuan{font-size:.84rem;color:var(--lembut);margin:.3rem 0 0}
+input[type=text],input[type=url],input[type=tel],input[type=password],input[type=number],input[type=date],input[type=time],select,textarea{width:100%;min-height:46px;padding:.65rem .9rem;border:1.5px solid #d9b8c2;border-radius:12px;background:#fff}
+textarea{resize:vertical;line-height:1.55}
+input:focus,select:focus,textarea:focus{outline:3px solid rgba(126,23,53,.25);border-color:var(--marun)}
+.perlu-tag{display:none;background:#FFF3B0;color:#5c4a00;border:1px solid #ecd45a;border-radius:999px;font-size:.72rem;font-weight:600;padding:.05rem .6rem}
+.fld.perlu .perlu-tag{display:inline-block}
+.fld.perlu input[type=text],.fld.perlu input[type=url],.fld.perlu input[type=tel],.fld.perlu textarea,.row-teks.perlu input{border-color:#e2bf2a;background:#FFFCE6}
+.kilat{animation:kilat 1.6s ease}
+@keyframes kilat{0%,60%{box-shadow:0 0 0 6px rgba(253,209,0,.7);border-radius:12px}100%{box-shadow:0 0 0 0 rgba(253,209,0,0)}}
+
+/* saklar */
+.saklar{display:flex;align-items:center;gap:.75rem;cursor:pointer;min-height:46px}
+.saklar input{position:absolute;opacity:0;width:1px;height:1px}
+.saklar .sl{flex:none;width:50px;height:28px;border-radius:999px;background:#cdbfc4;position:relative;transition:.2s}
+.saklar .sl::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;transition:.2s;box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.saklar input:checked+.sl{background:var(--marun)}
+.saklar input:checked+.sl::after{left:25px}
+.saklar input:focus-visible+.sl{outline:3px solid var(--marun);outline-offset:2px}
+.saklar .tx{font-size:.95rem}
+
+/* ikon */
+.ikon-baris{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.5rem}
+.ikon-baris button{width:42px;height:42px;border:1.5px solid var(--garis);border-radius:10px;background:#fff;font-size:1.25rem;cursor:pointer}
+.ikon-baris button:hover{background:var(--marun-muda);border-color:var(--marun)}
+.ikon-input{max-width:120px;text-align:center;font-size:1.4rem}
+
+/* gambar */
+.img-fld{display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap}
+.thumb{width:160px;height:120px;flex:none;border:1.5px solid var(--garis);border-radius:12px;overflow:hidden;display:grid;place-items:center;
+  background-color:#fff;background-image:linear-gradient(45deg,#f1e6ea 25%,transparent 25%),linear-gradient(-45deg,#f1e6ea 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#f1e6ea 75%),linear-gradient(-45deg,transparent 75%,#f1e6ea 75%);background-size:16px 16px;background-position:0 0,0 8px,8px -8px,-8px 0}
+.thumb img{width:100%;height:100%;object-fit:contain}
+.thumb .kosong{font-size:.78rem;color:var(--lembut);text-align:center;padding:.5rem;background:rgba(255,255,255,.85);border-radius:8px}
+.img-info{flex:1;min-width:200px;display:grid;gap:.5rem}
+.img-aksi{display:flex;flex-wrap:wrap;gap:.5rem}
+.img-info details summary{cursor:pointer;font-size:.86rem;color:var(--marun);min-height:36px;display:flex;align-items:center}
+.status{font-size:.85rem;color:var(--hijau);min-height:1.2em}
+.status.proses{color:var(--lembut)}
+
+/* kartu & daftar */
+.kartu{min-width:0;background:#fff;border:1px solid var(--garis);border-radius:var(--radius);padding:1.3rem 1.3rem .5rem;margin-bottom:1.1rem;box-shadow:0 2px 10px rgba(92,15,38,.05)}
+.kartu>h2{font-size:1.15rem;display:flex;align-items:center;gap:.5rem;padding-bottom:.6rem;margin-bottom:1rem;border-bottom:2px solid var(--kuning)}
+.kartu.daftar-kartu{padding-bottom:1.2rem}
+.item{border:1px solid var(--garis);border-radius:12px;background:#fff;margin-bottom:.6rem;overflow:hidden}
+.item[open]{border-color:var(--marun);box-shadow:0 4px 14px rgba(126,23,53,.1)}
+.item>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:.75rem;padding:.55rem 1rem;min-height:52px}
+.item>summary::-webkit-details-marker{display:none}
+.item>summary::after{content:"▾";margin-left:auto;color:var(--lembut);transition:.2s}
+.item[open]>summary::after{transform:rotate(180deg)}
+.item>summary .no{flex:none;width:30px;height:30px;border-radius:50%;background:var(--marun);color:var(--kuning);display:grid;place-items:center;font-size:.82rem;font-weight:600}
+.item>summary .jdl{font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.item-isi{padding:1rem 1rem .3rem;border-top:1px dashed var(--garis)}
+.item-aksi{display:flex;flex-wrap:wrap;gap:.5rem;padding:.2rem 1rem 1rem;justify-content:flex-end}
+.kosong-daftar{color:var(--lembut);background:var(--marun-muda);border-radius:12px;padding:1rem;text-align:center}
+.row-teks{display:flex;gap:.4rem;margin-bottom:.5rem;align-items:flex-start}
+.row-teks input{flex:1;min-width:0}
+.row-teks .btn{flex:none}
+.tambah{margin-top:.6rem}
+
+/* galeri */
+.g-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:.8rem}
+.g-kartu{border:1px solid var(--garis);border-radius:12px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.g-kartu .thumb{width:100%;height:130px;border:0;border-radius:0}
+.g-kartu .g-isi{padding:.6rem;display:grid;gap:.5rem}
+.g-kartu input[type=text]{min-height:40px;font-size:.9rem;padding:.4rem .6rem}
+.g-aksi{display:flex;gap:.3rem;justify-content:space-between}
+.g-aksi .btn{flex:1;min-width:0}
+
+/* ---------- aplikasi ---------- */
+.atas{position:sticky;top:0;z-index:40;background:linear-gradient(90deg,var(--marun-gelap),var(--marun-tua));color:#fff;border-bottom:3px solid var(--kuning);display:flex;align-items:center;justify-content:space-between;gap:.8rem;padding:.55rem 1rem}
+.atas .merek{display:flex;align-items:center;gap:.7rem;min-width:0}
+.atas .merek img{width:42px;height:42px;border-radius:50%;background:#fff;padding:2px;flex:none}
+.atas strong{display:block;font:600 1rem/1.2 var(--font)}
+.atas small{display:block;font-size:.74rem;opacity:.8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.atas .aksi-atas{display:flex;gap:.5rem;flex:none}
+.atas .btn.sek{background:transparent;color:#fff;border-color:rgba(255,255,255,.6)}
+.atas .btn.sek:hover:not(:disabled){background:#fff;color:var(--marun-tua)}
+.tata{display:grid;grid-template-columns:250px minmax(0,1fr);max-width:1240px;margin:0 auto;gap:1.5rem;padding:1.4rem 1rem 130px}
+.nav{position:sticky;top:78px;align-self:start;display:grid;gap:.2rem;max-height:calc(100vh - 100px);overflow:auto}
+.nav a{display:flex;align-items:center;gap:.65rem;padding:.6rem .8rem;border-radius:12px;color:var(--marun-tua);text-decoration:none;font-weight:500;font-size:.95rem;border-left:4px solid transparent;min-height:46px}
+.nav a:hover{background:#fff}
+.nav a.aktif{background:#fff;border-left-color:var(--kuning);font-weight:600;box-shadow:0 2px 8px rgba(92,15,38,.08)}
+.nav .cnt{margin-left:auto;min-width:22px;height:22px;border-radius:999px;background:var(--kuning);color:var(--marun-gelap);font-size:.74rem;font-weight:600;display:none;place-items:center;padding:0 .4rem}
+.nav .cnt.ada{display:grid}
+.utama{min-width:0;max-width:860px;outline:none}
+.judul-bagian{margin-bottom:1.1rem}
+.judul-bagian h1{font-size:1.7rem;margin-bottom:.15em}
+.judul-bagian p{color:var(--lembut);margin:0}
+
+.banner{display:flex;flex-wrap:wrap;gap:.7rem;align-items:center;background:#FFF9D6;border:1px solid #ecd45a;border-radius:var(--radius);padding:.9rem 1.1rem;margin-bottom:1.1rem;font-size:.93rem}
+.banner.info{background:#EEF4FF;border-color:#bcd0f5}
+.banner .teks{flex:1 1 240px}
+.banner .btn{flex:none}
+
+.tegel{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.8rem;margin-bottom:1.1rem}
+.tegel button{background:#fff;border:1px solid var(--garis);border-radius:var(--radius);padding:1rem;text-align:left;cursor:pointer;min-height:84px;transition:.2s}
+.tegel button:hover{border-color:var(--marun);transform:translateY(-2px)}
+.tegel b{display:block;font:700 1.9rem/1.1 'Playfair Display',serif;color:var(--marun)}
+.tegel span{font-size:.86rem;color:var(--lembut)}
+.perlu-daftar{display:grid;grid-template-columns:minmax(0,1fr);gap:.4rem;margin-bottom:.8rem}
+.perlu-baris{display:flex;align-items:center;gap:.7rem;border:1px solid var(--garis);border-radius:12px;padding:.5rem .5rem .5rem .9rem;background:#fff;min-height:54px}
+.perlu-baris .info{flex:1;min-width:0}
+.perlu-baris .info b{display:block;font-size:.9rem;color:var(--marun-tua)}
+.perlu-baris .info span{display:block;font-size:.8rem;color:var(--lembut);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.langkah-awal{margin:0 0 1rem;padding-left:1.2rem}
+.langkah-awal li{margin-bottom:.3rem}
+.riwayat-baris{display:flex;align-items:center;gap:.7rem;border:1px solid var(--garis);border-radius:12px;padding:.5rem .6rem .5rem .9rem;margin-bottom:.4rem;flex-wrap:wrap}
+.riwayat-baris span{flex:1 1 200px;font-size:.9rem}
+
+/* bilah simpan */
+.bilah{position:fixed;left:0;right:0;bottom:0;z-index:50;background:#fff;border-top:3px solid var(--garis);box-shadow:0 -6px 20px rgba(58,8,24,.12);padding:.6rem 1rem}
+.bilah.kotor{border-top-color:var(--kuning)}
+.bilah-dalam{max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:.7rem;flex-wrap:wrap}
+#bilahStatus{flex:1 1 220px;font-size:.9rem;min-width:0}
+#bilahStatus strong{display:block;color:var(--marun-tua)}
+.peringatan{color:#7a5d00}
+.bilah .btn{flex:none}
+
+.toast{position:fixed;left:50%;bottom:92px;transform:translate(-50%,20px);background:var(--marun-gelap);color:#fff;padding:.8rem 1.2rem;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.35);z-index:80;opacity:0;pointer-events:none;transition:.3s;max-width:min(560px,92vw);font-size:.93rem;border-left:5px solid var(--kuning)}
+.toast.tampil{opacity:1;transform:translate(-50%,0)}
+.toast.galat{border-left-color:#ff6b61}
+
+/* ---------- ponsel & tablet ---------- */
+@media (max-width:900px){
+  .tata{grid-template-columns:1fr;gap:.9rem;padding-top:0}
+  .nav{position:sticky;top:62px;z-index:30;display:flex;overflow-x:auto;gap:.4rem;margin:0 -1rem;padding:.6rem 1rem;background:var(--bg);border-bottom:1px solid var(--garis);max-height:none;scrollbar-width:none}
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{flex:none;border-left:0;border:1.5px solid var(--garis);background:#fff;border-radius:999px;padding:.4rem .95rem;min-height:44px;white-space:nowrap}
+  .nav a.aktif{background:var(--marun);color:#fff;border-color:var(--marun);box-shadow:none}
+  .nav .cnt{background:var(--kuning)}
+  .judul-bagian{margin-top:.9rem}
+  html{scroll-padding-top:140px}
+}
+@media (max-width:560px){
+  .atas small{display:none}
+  .atas .btn.kecil .tx-panjang{display:none}
+  .judul-bagian h1{font-size:1.4rem}
+  .kartu{padding:1.1rem 1rem .4rem}
+  .thumb{width:100%;height:150px}
+  .img-info{min-width:0;width:100%}
+  .bilah-dalam .btn{flex:1}
+  #bilahStatus{flex-basis:100%}
+  .toast{bottom:130px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<!-- ===================== MASUK ===================== -->
+<div class="login" id="login" hidden>
+  <form class="login-kartu" id="formLogin" autocomplete="on">
+    <img class="logo" alt="Logo Muadalah Wustha Al-Amiriyyah" src="data:image/webp;base64,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">
+    <h1>Dasbor Admin</h1>
+    <p class="sub">Kelola isi website Muadalah Wustha Al-Amiriyyah tanpa menyentuh kode.</p>
+    <div class="fld" id="bagApi" hidden>
+      <label for="inApi">Alamat API (dari Apps Script)</label>
+      <input type="url" id="inApi" placeholder="https://script.google.com/macros/s/…/exec" autocomplete="off">
+      <p class="bantuan">Cukup diisi sekali di perangkat ini. Lihat PANDUAN.md langkah “Deploy”.</p>
+    </div>
+    <div class="fld">
+      <label for="inSandi">Sandi</label>
+      <div class="sandi-baris">
+        <input type="password" id="inSandi" autocomplete="current-password" required>
+        <button type="button" id="lihatSandi" aria-label="Tampilkan sandi">👁</button>
+      </div>
+    </div>
+    <label class="ingat"><input type="checkbox" id="inIngat"> Ingat saya di perangkat ini (6 jam)</label>
+    <div class="galat" id="galatLogin" role="alert"></div>
+    <button class="btn" id="btnMasuk" type="submit" style="width:100%">Masuk</button>
+  </form>
+</div>
+
+<!-- ===================== APLIKASI ===================== -->
+<div id="app" hidden>
+  <header class="atas">
+    <div class="merek">
+      <img alt="" src="data:image/webp;base64,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">
+      <div><strong>Dasbor Website</strong><small>Muadalah Wustha Al-Amiriyyah</small></div>
+    </div>
+    <div class="aksi-atas">
+      <a id="lihatSitus" class="btn sek kecil" target="_blank" rel="noopener">Lihat Website<span class="tx-panjang"> ↗</span></a>
+      <button id="btnKeluar" class="btn sek kecil" type="button">Keluar</button>
+    </div>
+  </header>
+  <div class="tata">
+    <nav class="nav" id="nav" aria-label="Bagian website"></nav>
+    <main class="utama" id="utama" tabindex="-1"></main>
+  </div>
+  <div class="bilah" id="bilah">
+    <div class="bilah-dalam">
+      <div id="bilahStatus" role="status"></div>
+      <button class="btn sek" id="btnBatal" type="button">Batalkan perubahan</button>
+      <button class="btn kuning" id="btnSimpan" type="button">Simpan &amp; Terbitkan</button>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</div>
+
+<script>
+(function(){
+'use strict';
+
+/* =========================================================
+   PENGATURAN (boleh diubah)
+   ========================================================= */
+const KONFIG = {
+  // Alamat API dari Google Apps Script (berakhiran /exec). Bila dikosongkan,
+  // alamat akan ditanyakan di layar masuk dan diingat di perangkat ini.
+  apiUrl: "https://script.google.com/macros/s/AKfycbzhOh1GjEUJpZ7FC0wMIlL4WYDhjpV15gX-JSlV4sBMaNC1J7GA7caHeaRfa8doJi-lvQ/exec",
+  // Alamat website untuk tombol "Lihat Website"
+  situsUrl: "index.html"
+};
+
+/* Isi bawaan website (titik awal yang bisa diedit) */
+const BAWAAN = {"versi": 1, "umum": {"tagline": "Mencetak Generasi Berilmu, Berakhlak, dan Berprestasi. Madrasah Wustha berbasis pesantren di Blokagung, Banyuwangi.", "badgeAktif": true, "badgeTeks": "Pendaftaran Santri Baru Dibuka", "waNumber": "", "pesanWA": "Assalamu'alaikum, saya ingin menanyakan informasi pendaftaran Muadalah Wustha Al-Amiriyyah.", "alamat": "Muadalah Wustha Al-Amiriyyah, Blokagung, Banyuwangi, Jawa Timur [GANTI: alamat lengkap, RT/RW, desa, kecamatan, kode pos]", "alamatSingkat": "Blokagung, Banyuwangi, Jawa Timur", "telepon": "[GANTI: nomor telepon/WhatsApp]", "email": "[GANTI: alamat email]", "jam": "Senin – Sabtu, 07.30 – 15.00 WIB [GANTI]", "instagram": "", "facebook": "", "youtube": "", "tiktok": "", "petaUrl": "https://www.google.com/maps?q=Blokagung,+Banyuwangi,+Jawa+Timur&output=embed", "footerRingkas": "Madrasah Wustha berbasis pesantren di Blokagung, Banyuwangi. Mencetak generasi berilmu, berakhlak, dan berprestasi."}, "gambar": {"logo": "", "hero": "", "heroSantri": "", "kepala": ""}, "sambutan": {"kutipan": "Alhamdulillah, puji syukur kami panjatkan kepada Allah SWT. Kami berkomitmen mendampingi putra-putri Bapak/Ibu tumbuh menjadi pribadi yang berilmu, berakhlak mulia, dan siap berkhidmat kepada agama, bangsa, dan masyarakat. [GANTI: kutipan sambutan lengkap dari Kepala Madrasah]", "nama": "[GANTI: Nama Kepala Madrasah, gelar]", "jabatan": "Kepala Muadalah Wustha Al-Amiriyyah"}, "profil": {"pengantar": "Lembaga pendidikan jenjang Wustha (setara SLTP/SMP) yang memadukan kurikulum nasional dengan tradisi keilmuan pesantren.", "sejarah": "Muadalah Wustha Al-Amiriyyah berada di lingkungan pesantren Blokagung, Banyuwangi, Jawa Timur. Madrasah ini hadir untuk menyiapkan santri yang menguasai ilmu agama sekaligus ilmu umum, dengan bimbingan para asatidz yang istiqamah. [GANTI: sejarah berdiri, pendiri, tahun, tonggak penting, dan perkembangan lembaga]", "visi": "Terwujudnya generasi muslim yang berilmu, berakhlakul karimah, mandiri, dan berprestasi. [GANTI: visi resmi]", "tujuan": ["Melahirkan lulusan yang kuat akidah dan ibadahnya.", "Membekali santri dengan dasar ilmu agama dan umum.", "Membiasakan disiplin dan kemandirian di pesantren. [GANTI]"], "misi": ["Menyelenggarakan pendidikan berbasis Al-Qur'an dan kitab kuning.", "Menerapkan kurikulum nasional terpadu dengan diniyah.", "Menanamkan akhlakul karimah dalam keseharian santri.", "Mengembangkan bakat melalui ekstrakurikuler.", "Menjalin kemitraan erat dengan wali santri dan masyarakat. [GANTI: misi resmi]"], "nilai": [{"judul": "Akhlakul Karimah", "teks": "Adab sebelum ilmu, santun dalam ucap dan laku"}, {"judul": "Kedisiplinan", "teks": "Tertib waktu ibadah, belajar, dan kegiatan"}, {"judul": "Keilmuan", "teks": "Semangat menuntut ilmu dengan sanad dan metode"}]}, "program": [{"ikon": "📖", "judul": "Tahfidz Al-Qur'an", "teks": "Setoran hafalan harian dengan bimbingan musyrif, muroja'ah terjadwal, dan pembiasaan tajwid yang benar."}, {"ikon": "📚", "judul": "Kajian Kitab Kuning", "teks": "Pengajian kitab klasik secara bertahap: fikih, akidah, akhlak, nahwu, dan sharaf."}, {"ikon": "🗣️", "judul": "Bahasa Arab & Inggris", "teks": "Pembiasaan percakapan harian, mufradat, dan latihan pidato untuk dua bahasa asing."}, {"ikon": "🏫", "judul": "Kurikulum Nasional + Diniyah", "teks": "Pelajaran umum sesuai standar nasional berpadu dengan madrasah diniyah pesantren."}, {"ikon": "🥁", "judul": "Hadrah & Seni Islami", "teks": "Hadrah, banjari, kaligrafi, dan seni baca Al-Qur'an untuk menyalurkan bakat santri."}, {"ikon": "⚽", "judul": "Pramuka & Olahraga", "teks": "Pramuka, futsal, voli, dan bela diri untuk melatih kepemimpinan, sportivitas, dan kebugaran. [GANTI sesuai kegiatan]"}], "statistik": [{"angka": 450, "label": "Santri Aktif", "tambah": false, "format": "angka"}, {"angka": 35, "label": "Guru & Asatidz", "tambah": false, "format": "angka"}, {"angka": 1200, "label": "Alumni", "tambah": true, "format": "angka"}, {"angka": 1990, "label": "Tahun Berdiri", "tambah": false, "format": "tahun"}], "statistikCatatan": "*Angka contoh. [GANTI: ubah dengan data sebenarnya, lalu hapus catatan ini]", "fasilitas": [{"judul": "Masjid & Musholla", "teks": "Pusat ibadah berjamaah, kajian, dan pembinaan ruhani santri.", "foto": ""}, {"judul": "Asrama Santri", "teks": "Kamar bersih dan tertib dengan pengawasan pengasuh asrama.", "foto": ""}, {"judul": "Ruang Kelas", "teks": "Kelas luas dengan pencahayaan dan sirkulasi udara yang baik.", "foto": ""}, {"judul": "Perpustakaan", "teks": "Koleksi kitab, buku pelajaran, dan bacaan Islami.", "foto": ""}, {"judul": "Laboratorium", "teks": "Laboratorium IPA dan komputer untuk praktik pembelajaran. [GANTI jika berbeda]", "foto": ""}, {"judul": "Lapangan Olahraga", "teks": "Area olahraga dan upacara untuk kebugaran dan kegiatan bersama.", "foto": ""}], "jadwalKet": "Contoh ritme harian santri. [GANTI: sesuaikan dengan jadwal resmi]", "jadwal": [{"jam": "04:00", "judul": "Bangun & Qiyamul Lail", "teks": "Persiapan salat Subuh", "ibadah": true}, {"jam": "04:30", "judul": "Salat Subuh Berjamaah & Wirid", "teks": "Dilanjutkan dzikir pagi", "ibadah": true}, {"jam": "05:15", "judul": "Setoran Tahfidz / Ngaji Pagi", "teks": "Hafalan dan bacaan Al-Qur'an", "ibadah": false}, {"jam": "06:30", "judul": "Sarapan & Bersiap Sekolah", "teks": "Mandi, sarapan, dan apel pagi", "ibadah": false}, {"jam": "07:15", "judul": "Kegiatan Belajar Mengajar", "teks": "Pelajaran kurikulum nasional", "ibadah": false}, {"jam": "12:00", "judul": "Salat Dzuhur & Makan Siang", "teks": "Istirahat", "ibadah": true}, {"jam": "14:00", "judul": "Madrasah Diniyah", "teks": "Kajian kitab dan ilmu agama", "ibadah": false}, {"jam": "15:30", "judul": "Salat Ashar Berjamaah", "teks": "Dilanjutkan kegiatan sore", "ibadah": true}, {"jam": "16:00", "judul": "Ekstrakurikuler", "teks": "Hadrah, pramuka, olahraga, seni", "ibadah": false}, {"jam": "18:00", "judul": "Salat Maghrib & Ngaji", "teks": "Tadarus dan tahfidz", "ibadah": true}, {"jam": "19:30", "judul": "Salat Isya & Belajar Malam", "teks": "Muroja'ah dan mengulang pelajaran", "ibadah": true}, {"jam": "21:30", "judul": "Istirahat", "teks": "Doa tidur dan waktu istirahat", "ibadah": false}], "berita": [{"judul": "Pendaftaran Santri Baru Tahun Ajaran 2027/2028 Dibuka", "kategori": "Pengumuman", "tanggal": "", "foto": "", "ringkasan": "Madrasah membuka pendaftaran santri baru. Informasi persyaratan dan jadwal dapat dilihat pada bagian PPDB.", "isi": ""}, {"judul": "Khotmil Qur'an dan Doa Bersama Santri", "kategori": "Kegiatan", "tanggal": "", "foto": "", "ringkasan": "Santri mengikuti khotmil Qur'an bersama asatidz sebagai wujud syukur atas rampungnya hafalan. [GANTI]", "isi": ""}, {"judul": "Santri Raih Juara dalam Lomba Tingkat Kabupaten", "kategori": "Prestasi", "tanggal": "", "foto": "", "ringkasan": "Santri mengharumkan nama madrasah dalam perlombaan keagamaan. [GANTI: nama lomba dan juara]", "isi": ""}], "galeri": [{"foto": "", "ket": "Kegiatan belajar santri"}, {"foto": "", "ket": "Salat berjamaah"}, {"foto": "", "ket": "Setoran tahfidz"}, {"foto": "", "ket": "Latihan hadrah"}, {"foto": "", "ket": "Kegiatan pramuka"}, {"foto": "", "ket": "Wisuda santri"}, {"foto": "", "ket": "Olahraga bersama"}, {"foto": "", "ket": "Santri di perpustakaan"}], "ppdb": {"alur": [{"judul": "Isi Formulir", "teks": "Lengkapi data calon santri secara daring atau di sekretariat."}, {"judul": "Serahkan Berkas", "teks": "Kumpulkan dokumen persyaratan ke panitia."}, {"judul": "Tes Seleksi", "teks": "Tes baca Al-Qur'an dan tes dasar akademik."}, {"judul": "Pengumuman", "teks": "Hasil seleksi diumumkan sesuai jadwal."}, {"judul": "Daftar Ulang", "teks": "Pembayaran, pengambilan seragam, dan masuk asrama."}], "syarat": ["Lulusan SD/MI atau sederajat.", "Fotokopi ijazah / surat keterangan lulus.", "Fotokopi akta kelahiran dan kartu keluarga.", "Pas foto terbaru ukuran 3×4. [GANTI: lengkapi syarat]"], "jadwalBiaya": [{"label": "Pendaftaran", "nilai": "[GANTI: tanggal mulai – selesai]"}, {"label": "Tes seleksi", "nilai": "[GANTI: tanggal]"}, {"label": "Pengumuman", "nilai": "[GANTI: tanggal]"}, {"label": "Biaya pendaftaran", "nilai": "[GANTI: Rp ...]"}, {"label": "Biaya bulanan", "nilai": "[GANTI: Rp ...]"}]}, "testimoni": [{"nama": "[GANTI: Nama Wali]", "peran": "Wali Santri", "teks": "Anak kami semakin rajin ibadah dan santun sejak mondok di sini. Alhamdulillah hafalannya terus bertambah. [GANTI]"}, {"nama": "[GANTI: Nama Alumni]", "peran": "Alumni, angkatan [GANTI]", "teks": "Bekal ilmu agama dan disiplin dari madrasah ini sangat membantu saya di jenjang berikutnya. [GANTI]"}, {"nama": "[GANTI: Nama Wali]", "peran": "Wali Santri", "teks": "Para ustaz sabar membimbing dan lingkungannya aman. Kami tenang menitipkan putra kami. [GANTI]"}]};
+
+/* =========================================================
+   ALAT BANTU
+   ========================================================= */
+const $  = (s,r=document)=>r.querySelector(s);
+const $$ = (s,r=document)=>[...r.querySelectorAll(s)];
+const klon = o=>JSON.parse(JSON.stringify(o));
+const getP = (o,p)=>String(p).split('.').reduce((x,k)=>x==null?undefined:x[k],o);
+function setP(o,p,v){
+  const k=String(p).split('.'); let x=o;
+  for(let i=0;i<k.length-1;i++){ if(x[k[i]]==null||typeof x[k[i]]!=='object') x[k[i]]={}; x=x[k[i]]; }
+  x[k[k.length-1]]=v;
+}
+let _uid=0; const uid=()=>'f'+(++_uid);
+function h(tag,props,...kids){
+  const e=document.createElement(tag);
+  for(const k in (props||{})){
+    const v=props[k]; if(v==null||v===false) continue;
+    if(k==='text') e.textContent=v;
+    else if(k.slice(0,2)==='on') e.addEventListener(k.slice(2),v);
+    else if(['value','checked','hidden','disabled','open','multiple'].includes(k)) e[k]=v;
+    else e.setAttribute(k,v===true?'':v);
+  }
+  kids.flat(Infinity).forEach(c=>{ if(c==null||c===false) return; e.append(c.nodeType?c:document.createTextNode(String(c))); });
+  return e;
+}
+const lengkapi=(t,d)=>{
+  for(const k in d){
+    if(t[k]===undefined) t[k]=klon(d[k]);
+    else if(d[k]&&typeof d[k]==='object'&&!Array.isArray(d[k])&&t[k]&&typeof t[k]==='object'&&!Array.isArray(t[k])) lengkapi(t[k],d[k]);
+  }
+  return t;
+};
+const fmtWaktu=s=>{ try{ return new Date(s).toLocaleString('id-ID',{dateStyle:'full',timeStyle:'short'}); }catch(e){ return s; } };
+let _tt; function toast(msg,jenis){
+  const t=$('#toast'); t.textContent=msg; t.className='toast tampil '+(jenis||'');
+  clearTimeout(_tt); _tt=setTimeout(()=>t.classList.remove('tampil'),jenis==='galat'?7000:4500);
+}
+
+/* =========================================================
+   STATE
+   ========================================================= */
+const S={ token:null, konten:null, server:'', diperbarui:null, bagian:'ringkasan', sandiAwal:false, pertama:false, sibuk:false };
+const kotor=()=>JSON.stringify(S.konten)!==S.server;
+
+/* sesi */
+const KS='mwa_sesi', KD='mwa_draf_v1', KA='mwa_api';
+function simpanSesi(ingat,j){
+  const o=JSON.stringify({token:j.token,exp:Date.now()+(j.berlaku||21600)*1000-120000,sandiAwal:!!j.sandiAwal});
+  try{ (ingat?localStorage:sessionStorage).setItem(KS,o); (ingat?sessionStorage:localStorage).removeItem(KS); }catch(e){}
+}
+function bacaSesi(){
+  for(const st of [sessionStorage,localStorage]){
+    try{ const o=JSON.parse(st.getItem(KS)||'null'); if(o&&o.token&&o.exp>Date.now()) return o; }catch(e){}
+  }
+  return null;
+}
+function hapusSesi(){ try{ sessionStorage.removeItem(KS); localStorage.removeItem(KS); }catch(e){} }
+function simpanDraf(){
+  try{ if(kotor()&&S.konten) localStorage.setItem(KD,JSON.stringify({waktu:Date.now(),konten:S.konten})); else localStorage.removeItem(KD); }catch(e){}
+}
+
+/* =========================================================
+   API
+   ========================================================= */
+const apiUrl=()=>(KONFIG.apiUrl||localStorage.getItem(KA)||'').trim();
+async function api(aksi,data){
+  const url=apiUrl(); if(!url) throw new Error('Alamat API belum diisi.');
+  let r;
+  try{
+    r=await fetch(url,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(Object.assign({aksi,token:S.token},data||{}))});
+  }catch(e){ throw new Error('Tidak dapat terhubung ke server. Periksa koneksi internet dan alamat API.'); }
+  let j; try{ j=await r.json(); }
+  catch(e){ throw new Error('Balasan server tidak dikenali. Pastikan alamat API benar dan akses aplikasi web diatur ke “Siapa saja”.'); }
+  if(j&&j.kode==='sesi'){ keluarPaksa(j.pesan); throw new Error(j.pesan); }
+  if(!j||!j.ok) throw new Error((j&&j.pesan)||'Permintaan gagal.');
+  return j;
+}
+async function bacaPublik(){
+  const u=apiUrl(); let r;
+  try{ r=await fetch(u+(u.includes('?')?'&':'?')+'aksi=konten'); }catch(e){ throw new Error('Tidak dapat terhubung ke server.'); }
+  const j=await r.json().catch(()=>null);
+  if(!j||!j.ok) throw new Error('Gagal membaca konten dari server.');
+  return j;
+}
+
+/* =========================================================
+   SKEMA BAGIAN WEBSITE
+   ========================================================= */
+const IKON=['📖','📚','🕌','🌙','⭐','🎓','🧠','🗣️','🏫','🥁','⚽','🔬','💻','🎨','🤲','🌿','🏆','✍️','🧭','📝'];
+const KATEGORI=['Pengumuman','Kegiatan','Prestasi','Info'];
+
+const BAGIAN=[
+ {id:'ringkasan',judul:'Ringkasan',ikon:'🏠',khusus:'ringkasan'},
+ {id:'beranda',judul:'Beranda',ikon:'🌟',desk:'Bagian paling atas website: logo, foto utama, dan kalimat sambutan singkat.',isi:[
+  {t:'grup',judul:'Tulisan di halaman depan',fields:[
+   {p:'umum.tagline',label:'Kalimat tagline',tipe:'area',rows:3,bantuan:'Tampil di bawah nama sekolah.'},
+   {p:'umum.badgeAktif',label:'Lencana pendaftaran',tipe:'saklar',teks:'Tampilkan lencana hijau pendaftaran'},
+   {p:'umum.badgeTeks',label:'Tulisan lencana',tipe:'teks',maks:60,bantuan:'Contoh: Pendaftaran Santri Baru Dibuka'}]},
+  {t:'grup',judul:'Logo & foto',fields:[
+   {p:'gambar.logo',label:'Logo sekolah',tipe:'gambar',maks:600,format:'png',bantuan:'Dipakai di menu atas, halaman depan, footer, dan ikon tab. Kosongkan untuk memakai logo bawaan.'},
+   {p:'gambar.heroSantri',label:'Foto santri (halaman depan)',tipe:'gambar',maks:1200,bantuan:'Paling bagus PNG/WebP berlatar transparan seperti foto sekarang. Kosongkan untuk memakai foto bawaan.'},
+   {p:'gambar.hero',label:'Foto latar (gedung/lingkungan)',tipe:'gambar',maks:1920,bantuan:'Opsional. Foto lebar yang akan diberi lapisan marun gelap di belakang tulisan.'}]}]},
+ {id:'sambutan',judul:'Sambutan',ikon:'🎙️',desk:'Foto dan sambutan Kepala Madrasah.',isi:[
+  {t:'grup',judul:'Kepala Madrasah',fields:[
+   {p:'gambar.kepala',label:'Foto Kepala Madrasah',tipe:'gambar',maks:1000,bantuan:'Disarankan foto setengah badan, latar transparan atau polos.'},
+   {p:'sambutan.nama',label:'Nama lengkap dan gelar',tipe:'teks',wajib:true},
+   {p:'sambutan.jabatan',label:'Jabatan',tipe:'teks'},
+   {p:'sambutan.kutipan',label:'Isi sambutan',tipe:'area',rows:9,wajib:true,bantuan:'Tekan Enter untuk membuat paragraf baru.'}]}]},
+ {id:'profil',judul:'Profil',ikon:'📜',desk:'Sejarah, visi, misi, tujuan, dan nilai-nilai madrasah.',isi:[
+  {t:'grup',judul:'Pengantar & sejarah',fields:[
+   {p:'profil.pengantar',label:'Kalimat pengantar',tipe:'area',rows:2},
+   {p:'profil.sejarah',label:'Sejarah singkat',tipe:'area',rows:8,wajib:true,bantuan:'Tekan Enter untuk membuat paragraf baru.'}]},
+  {t:'grup',judul:'Visi',fields:[{p:'profil.visi',label:'Visi madrasah',tipe:'area',rows:3,wajib:true}]},
+  {t:'daftarTeks',judul:'Misi',p:'profil.misi',label:'Misi',tambah:'Tambah misi'},
+  {t:'daftarTeks',judul:'Tujuan',p:'profil.tujuan',label:'Tujuan',tambah:'Tambah tujuan'},
+  {t:'daftar',judul:'Nilai-nilai (tiga kotak gelap)',p:'profil.nilai',nama:'Nilai',tambah:'Tambah nilai',
+   judulItem:d=>d.judul||'(tanpa judul)',baru:()=>({judul:'',teks:''}),fields:[
+    {p:'judul',label:'Nama nilai',tipe:'teks',maks:40},{p:'teks',label:'Penjelasan singkat',tipe:'teks',maks:90}]}]},
+ {id:'program',judul:'Program',ikon:'📚',desk:'Kartu program unggulan.',isi:[
+  {t:'daftar',judul:'Program unggulan',p:'program',nama:'Program',tambah:'Tambah program',
+   judulItem:d=>((d.ikon||'')+' '+(d.judul||'(tanpa judul)')).trim(),baru:()=>({ikon:'⭐',judul:'',teks:''}),fields:[
+    {p:'ikon',label:'Ikon',tipe:'ikon'},{p:'judul',label:'Nama program',tipe:'teks',maks:60,wajib:true},
+    {p:'teks',label:'Penjelasan',tipe:'area',rows:3,maks:240}]}]},
+ {id:'statistik',judul:'Statistik',ikon:'📊',desk:'Angka yang berhitung otomatis di website.',isi:[
+  {t:'daftar',judul:'Angka statistik',p:'statistik',nama:'Angka',tambah:'Tambah angka',
+   judulItem:d=>(d.angka!==undefined&&d.angka!==''?d.angka:'?')+(d.tambah?'+':'')+' · '+(d.label||'(tanpa label)'),
+   baru:()=>({angka:0,label:'',tambah:false,format:'angka'}),fields:[
+    {p:'angka',label:'Angka',tipe:'angka'},{p:'label',label:'Keterangan',tipe:'teks',maks:30,wajib:true},
+    {p:'format',label:'Tampilan angka',tipe:'pilih',opsi:[['angka','Angka biasa (contoh: 1.200)'],['tahun','Tahun (contoh: 1990)']]},
+    {p:'tambah',label:'Tanda tambah',tipe:'saklar',teks:'Tampilkan tanda + di belakang angka (contoh: 1.200+)'}]},
+  {t:'grup',judul:'Catatan di bawah angka',fields:[
+   {p:'statistikCatatan',label:'Catatan',tipe:'area',rows:2,bantuan:'Kosongkan jika tidak perlu; catatan akan disembunyikan.'}]}]},
+ {id:'fasilitas',judul:'Fasilitas',ikon:'🏛️',desk:'Kartu fasilitas lengkap dengan foto.',isi:[
+  {t:'daftar',judul:'Daftar fasilitas',p:'fasilitas',nama:'Fasilitas',tambah:'Tambah fasilitas',
+   judulItem:d=>d.judul||'(tanpa judul)',baru:()=>({judul:'',teks:'',foto:''}),fields:[
+    {p:'judul',label:'Nama fasilitas',tipe:'teks',maks:50,wajib:true},
+    {p:'teks',label:'Penjelasan singkat',tipe:'area',rows:2,maks:200},
+    {p:'foto',label:'Foto',tipe:'gambar',maks:1200,bantuan:'Foto mendatar (rasio 16:10) paling pas.'}]}]},
+ {id:'jadwal',judul:'Jadwal Harian',ikon:'🕰️',desk:'Rangkaian kegiatan santri dari subuh sampai malam.',isi:[
+  {t:'grup',judul:'Keterangan',fields:[{p:'jadwalKet',label:'Kalimat di bawah judul',tipe:'area',rows:2,bantuan:'Kosongkan untuk menyembunyikan.'}]},
+  {t:'daftar',judul:'Kegiatan',p:'jadwal',nama:'Kegiatan',tambah:'Tambah kegiatan',
+   judulItem:d=>(d.jam||'--:--')+' · '+(d.judul||'(tanpa judul)'),baru:()=>({jam:'',judul:'',teks:'',ibadah:false}),fields:[
+    {p:'jam',label:'Jam',tipe:'jam',wajib:true},{p:'judul',label:'Nama kegiatan',tipe:'teks',maks:60,wajib:true},
+    {p:'teks',label:'Keterangan singkat',tipe:'teks',maks:80},
+    {p:'ibadah',label:'Jenis kegiatan',tipe:'saklar',teks:'Waktu ibadah (titik hijau di jadwal)'}]}]},
+ {id:'berita',judul:'Berita',ikon:'📰',desk:'Berita dan pengumuman. Yang paling atas tampil paling dulu; tiga teratas tampil di beranda, sisanya lewat tombol “Lihat Semua”.',isi:[
+  {t:'daftar',judul:'Daftar berita',p:'berita',nama:'Berita',tambah:'Tambah berita',baruDiAtas:true,
+   judulItem:d=>d.judul||'(tanpa judul)',baru:()=>({judul:'',kategori:'Pengumuman',tanggal:new Date().toISOString().slice(0,10),foto:'',ringkasan:'',isi:''}),fields:[
+    {p:'judul',label:'Judul berita',tipe:'teks',maks:120,wajib:true},
+    {p:'kategori',label:'Kategori',tipe:'teks',maks:20,datalist:KATEGORI},
+    {p:'tanggal',label:'Tanggal',tipe:'tanggal',wajib:true},
+    {p:'foto',label:'Foto berita',tipe:'gambar',maks:1400,bantuan:'Foto mendatar (16:9) paling pas.'},
+    {p:'ringkasan',label:'Ringkasan (tampil di kartu)',tipe:'area',rows:3,maks:220,wajib:true},
+    {p:'isi',label:'Isi lengkap (opsional)',tipe:'area',rows:9,bantuan:'Tampil saat “Baca selengkapnya” diklik. Jika kosong, yang tampil adalah ringkasan. Enter = paragraf baru.'}]}]},
+ {id:'galeri',judul:'Galeri',ikon:'🖼️',desk:'Kumpulan foto kegiatan. Anda bisa memilih banyak foto sekaligus.',isi:[{t:'galeri',p:'galeri',judul:'Foto galeri'}]},
+ {id:'ppdb',judul:'PPDB',ikon:'📝',desk:'Alur, persyaratan, jadwal, dan biaya pendaftaran santri baru.',isi:[
+  {t:'daftar',judul:'Alur pendaftaran',p:'ppdb.alur',nama:'Langkah',tambah:'Tambah langkah',
+   judulItem:d=>d.judul||'(tanpa judul)',baru:()=>({judul:'',teks:''}),fields:[
+    {p:'judul',label:'Nama langkah',tipe:'teks',maks:40,wajib:true},{p:'teks',label:'Penjelasan',tipe:'area',rows:2,maks:140}]},
+  {t:'daftarTeks',judul:'Persyaratan',p:'ppdb.syarat',label:'Syarat',tambah:'Tambah persyaratan'},
+  {t:'daftar',judul:'Jadwal & biaya',p:'ppdb.jadwalBiaya',nama:'Baris',tambah:'Tambah baris',
+   judulItem:d=>(d.label||'(tanpa nama)')+': '+(d.nilai||''),baru:()=>({label:'',nilai:''}),fields:[
+    {p:'label',label:'Nama',tipe:'teks',maks:40,wajib:true,bantuan:'Contoh: Biaya pendaftaran'},{p:'nilai',label:'Isi',tipe:'teks',maks:80,wajib:true,bantuan:'Contoh: Rp 250.000'}]}]},
+ {id:'testimoni',judul:'Testimoni',ikon:'💬',desk:'Kesan wali santri dan alumni.',isi:[
+  {t:'daftar',judul:'Daftar testimoni',p:'testimoni',nama:'Testimoni',tambah:'Tambah testimoni',
+   judulItem:d=>d.nama||'(tanpa nama)',baru:()=>({nama:'',peran:'Wali Santri',teks:''}),fields:[
+    {p:'nama',label:'Nama',tipe:'teks',maks:50,wajib:true},{p:'peran',label:'Sebagai',tipe:'teks',maks:50,bantuan:'Contoh: Wali Santri, atau Alumni angkatan 2020'},
+    {p:'teks',label:'Isi testimoni',tipe:'area',rows:4,maks:300,wajib:true}]}]},
+ {id:'kontak',judul:'Kontak & Footer',ikon:'📍',desk:'Alamat, nomor telepon, WhatsApp, media sosial, dan peta.',isi:[
+  {t:'grup',judul:'WhatsApp',fields:[
+   {p:'umum.waNumber',label:'Nomor WhatsApp panitia',tipe:'wa',wajib:true,bantuan:'Ditulis 62 diikuti nomor tanpa 0 di depan (mis. 6281234567890). Angka 0 di depan otomatis diubah. Dipakai tombol WhatsApp melayang dan formulir pendaftaran.'},
+   {p:'umum.pesanWA',label:'Pesan pembuka WhatsApp',tipe:'area',rows:2}]},
+  {t:'grup',judul:'Kontak',fields:[
+   {p:'umum.alamat',label:'Alamat lengkap',tipe:'area',rows:3,wajib:true},
+   {p:'umum.alamatSingkat',label:'Alamat singkat (footer)',tipe:'teks',maks:80},
+   {p:'umum.telepon',label:'Telepon',tipe:'teks',wajib:true,maks:60,bantuan:'Kosongkan untuk menyembunyikan baris ini.'},
+   {p:'umum.email',label:'Email',tipe:'teks',wajib:true,maks:80,bantuan:'Kosongkan untuk menyembunyikan baris ini.'},
+   {p:'umum.jam',label:'Jam layanan',tipe:'teks',maks:80}]},
+  {t:'grup',judul:'Media sosial',bantuan:'Tempel alamat lengkap (diawali https://). Yang dikosongkan tidak akan tampil di website.',fields:[
+   {p:'umum.instagram',label:'Instagram',tipe:'url'},{p:'umum.facebook',label:'Facebook',tipe:'url'},
+   {p:'umum.youtube',label:'YouTube',tipe:'url'},{p:'umum.tiktok',label:'TikTok',tipe:'url'}]},
+  {t:'grup',judul:'Peta lokasi',fields:[
+   {p:'umum.petaUrl',label:'Peta Google Maps',tipe:'peta',bantuan:'Buka Google Maps, cari lokasi madrasah, klik Bagikan, pilih tab “Sematkan peta”, salin kode HTML, lalu tempel di sini. Alamat peta atau seluruh kode keduanya boleh.'}]},
+  {t:'grup',judul:'Footer',fields:[{p:'umum.footerRingkas',label:'Ringkasan madrasah (footer)',tipe:'area',rows:3}]}]},
+ {id:'pengaturan',judul:'Pengaturan',ikon:'⚙️',khusus:'pengaturan',desk:'Sandi, riwayat versi, dan cadangan.'}
+];
+
+/* =========================================================
+   PENANDA "PERLU DILENGKAPI"
+   ========================================================= */
+const perlu=(f,v)=>(typeof v==='string'&&/\[GANTI/i.test(v))||(!!f.wajib&&(v==null||String(v).trim()===''));
+function telusuri(bag,cb){
+  const walk=(blok,root,prefix,ctx)=>{
+    blok.forEach(b=>{
+      if(b.t==='grup') walk(b.fields,root,prefix,ctx);
+      else if(b.t==='daftarTeks'){ (getP(root,b.p)||[]).forEach((v,i)=>cb(bag,{label:b.label+' '+(i+1),tipe:'teks'},v,prefix+b.p+'.'+i,'')); }
+      else if(b.t==='daftar'){ (getP(root,b.p)||[]).forEach((it,i)=>walk(b.fields,it,prefix+b.p+'.'+i+'.',b.nama+' '+(i+1))); }
+      else if(b.t==='galeri'){ (getP(root,b.p)||[]).forEach((it,i)=>cb(bag,{label:'Keterangan foto '+(i+1),tipe:'teks'},it.ket,prefix+b.p+'.'+i+'.ket','')); }
+      else if(b.tipe!=='gambar') cb(bag,b,getP(root,b.p),prefix+b.p,ctx);
+    });
+  };
+  if(bag.isi) walk(bag.isi,S.konten,'','');
+}
+function kumpulPerlu(){
+  const out=[];
+  BAGIAN.forEach(bag=>telusuri(bag,(bg,f,v,path,ctx)=>{ if(perlu(f,v)) out.push({bagian:bg,label:(ctx?ctx+' › ':'')+f.label,path,nilai:v}); }));
+  return out;
+}
+
+/* =========================================================
+   UNGGAH FOTO
+   ========================================================= */
+async function kompres(bmp,maks,tipe){
+  let skala=Math.min(1,maks/Math.max(bmp.width,bmp.height));
+  for(let i=0;i<4;i++){
+    const w=Math.max(1,Math.round(bmp.width*skala)), ht=Math.max(1,Math.round(bmp.height*skala));
+    const c=document.createElement('canvas'); c.width=w; c.height=ht;
+    c.getContext('2d').drawImage(bmp,0,0,w,ht);
+    const blob=await new Promise(r=>c.toBlob(r,tipe,0.88));
+    if(!blob) throw new Error('Gagal memproses gambar.');
+    if(blob.size<=2.5*1024*1024||i===3) return blob;
+    skala*=0.75;
+  }
+}
+const keBase64=blob=>new Promise((ok,gagal)=>{ const r=new FileReader(); r.onload=()=>ok(String(r.result).split(',')[1]); r.onerror=()=>gagal(new Error('Gagal membaca berkas.')); r.readAsDataURL(blob); });
+async function unggahFoto(file,opsi,lapor){
+  if(!/^image\//.test(file.type)) throw new Error('Berkas harus berupa gambar (PNG, JPG, atau WebP).');
+  if(file.size>30*1024*1024) throw new Error('Ukuran berkas terlalu besar (maksimal 30 MB).');
+  let bmp; try{ bmp=await createImageBitmap(file); }catch(e){ throw new Error('Gambar tidak dapat dibaca. Coba format PNG atau JPG.'); }
+  lapor&&lapor('Mengecilkan ukuran foto…');
+  const blob=await kompres(bmp,opsi.maks||1400,opsi.format==='png'?'image/png':'image/webp');
+  lapor&&lapor('Mengunggah… ('+Math.round(blob.size/1024)+' KB)');
+  const j=await api('unggah',{nama:file.name,tipe:blob.type,data:await keBase64(blob)});
+  return j.url;
+}
+
+/* =========================================================
+   KONTROL ISIAN
+   ========================================================= */
+let _tunda; function tandai(){ clearTimeout(_tunda); _tunda=setTimeout(()=>{ perbaruiBilah(); simpanDraf(); },250); }
+
+function ekstrakPeta(v){
+  v=String(v||'').trim();
+  const m=/src\s*=\s*["']([^"']+)["']/i.exec(v);
+  if(m) v=m[1];
+  return v.replace(/&amp;/g,'&').trim();
+}
+const petaSah=v=>!v||/^https:\/\/(www\.google\.com\/maps|maps\.google\.com|www\.google\.co\.id\/maps)/i.test(v);
+
+function kontrol(f,root,prefix){
+  if(f.tipe==='gambar') return fldGambar(f,root,prefix);
+  const id=uid(), path=prefix+f.p;
+  const wrap=h('div',{class:'fld','data-path':path});
+  const lab=h('label',{for:id},f.label,h('span',{class:'perlu-tag'},'Perlu dilengkapi'));
+  const nilai=getP(root,f.p);
+  const simpan=v=>{ setP(root,f.p,v); wrap.classList.toggle('perlu',perlu(f,v)); tandai(); };
+  let el, tambahan=[];
+
+  switch(f.tipe){
+    case 'area':
+      el=h('textarea',{id,rows:f.rows||3,maxlength:f.maks||null,value:nilai==null?'':nilai});
+      el.addEventListener('input',()=>simpan(el.value)); break;
+    case 'saklar': {
+      const cb=h('input',{type:'checkbox',id,checked:!!nilai});
+      cb.addEventListener('change',()=>simpan(cb.checked));
+      wrap.append(h('div',{class:'lab'},f.label));
+      wrap.append(h('label',{class:'saklar',for:id},cb,h('span',{class:'sl','aria-hidden':'true'}),h('span',{class:'tx'},f.teks||'')));
+      if(f.bantuan) wrap.append(h('p',{class:'bantuan'},f.bantuan));
+      return wrap; }
+    case 'pilih':
+      el=h('select',{id},...f.opsi.map(o=>h('option',{value:o[0]},o[1])));
+      el.value=nilai==null?f.opsi[0][0]:nilai;
+      el.addEventListener('change',()=>simpan(el.value)); break;
+    case 'angka':
+      el=h('input',{type:'number',id,inputmode:'numeric',min:'0',step:'1',value:nilai==null?'':nilai});
+      el.addEventListener('input',()=>simpan(el.value===''?'':Number(el.value))); break;
+    case 'tanggal':
+      el=h('input',{type:'date',id,value:/^\d{4}-\d{2}-\d{2}$/.test(nilai||'')?nilai:''});
+      el.addEventListener('input',()=>simpan(el.value)); break;
+    case 'jam':
+      el=h('input',{type:'time',id,value:nilai||''});
+      el.addEventListener('input',()=>simpan(el.value)); break;
+    case 'ikon': {
+      el=h('input',{type:'text',id,class:'ikon-input',maxlength:'8',value:nilai||'',autocomplete:'off'});
+      el.addEventListener('input',()=>simpan(el.value));
+      tambahan.push(h('div',{class:'ikon-baris'},...IKON.map(e=>h('button',{type:'button','aria-label':'Pilih ikon '+e,onclick:()=>{ el.value=e; simpan(e); }},e))));
+      tambahan.push(h('p',{class:'bantuan'},'Pilih dari daftar, atau ketik/tempel emoji lain.'));
+      break; }
+    case 'wa': {
+      el=h('input',{type:'tel',id,inputmode:'tel',placeholder:'6281234567890',value:nilai||'',autocomplete:'off'});
+      const norm=()=>{ let d=el.value.replace(/\D/g,''); if(d.startsWith('0')) d='62'+d.slice(1); el.value=d; simpan(d); };
+      el.addEventListener('input',()=>simpan(el.value.replace(/\D/g,'')));
+      el.addEventListener('blur',norm); break; }
+    case 'peta': {
+      el=h('textarea',{id,rows:2,placeholder:'Tempel kode sematan atau alamat peta di sini',value:nilai||''});
+      const info=h('p',{class:'bantuan',style:'color:var(--merah)'});
+      const cek=()=>{ const v=ekstrakPeta(el.value); info.textContent=petaSah(v)?'':'Alamat ini bukan peta sematan Google Maps, jadi tidak akan tampil di website.'; };
+      el.addEventListener('input',()=>{ const v=ekstrakPeta(el.value); simpan(v); cek(); });
+      el.addEventListener('blur',()=>{ const v=ekstrakPeta(el.value); el.value=v; simpan(v); cek(); });
+      tambahan.push(info); cek(); break; }
+    default: {
+      const tipe=f.tipe==='url'?'url':'text';
+      el=h('input',{type:tipe,id,maxlength:f.maks||null,value:nilai==null?'':nilai,autocomplete:'off',placeholder:f.tipe==='url'?'https://…':null,list:f.datalist?id+'l':null});
+      el.addEventListener('input',()=>simpan(el.value));
+      if(f.datalist) tambahan.push(h('datalist',{id:id+'l'},...f.datalist.map(d=>h('option',{value:d}))));
+    }
+  }
+  wrap.append(lab,el,...tambahan);
+  if(f.bantuan) wrap.append(h('p',{class:'bantuan'},f.bantuan));
+  wrap.classList.toggle('perlu',perlu(f,nilai));
+  return wrap;
+}
+
+function fldGambar(f,root,prefix){
+  const path=prefix+f.p, id=uid();
+  const wrap=h('div',{class:'fld','data-path':path});
+  const thumb=h('div',{class:'thumb'});
+  const status=h('div',{class:'status',role:'status'});
+  const file=h('input',{type:'file',accept:'image/png,image/jpeg,image/webp,image/gif',hidden:true,id});
+  const url=h('input',{type:'url',placeholder:'https://…','aria-label':'Alamat foto '+f.label});
+  const btnUnggah=h('button',{type:'button',class:'btn sek kecil'},'⬆ Unggah foto');
+  const btnHapus=h('button',{type:'button',class:'btn bahaya kecil'},'Kembalikan ke bawaan');
+  const muat=()=>{
+    const v=getP(root,f.p)||'';
+    thumb.replaceChildren(v?h('img',{src:v,alt:'Pratinjau '+f.label}):h('span',{class:'kosong'},'Memakai foto bawaan website'));
+    url.value=v; btnHapus.hidden=!v;
+  };
+  btnUnggah.addEventListener('click',()=>file.click());
+  file.addEventListener('change',async()=>{
+    const berkas=file.files[0]; file.value=''; if(!berkas) return;
+    btnUnggah.disabled=true; status.className='status proses';
+    try{
+      const u=await unggahFoto(berkas,f,t=>status.textContent=t);
+      setP(root,f.p,u); muat(); tandai();
+      status.className='status'; status.textContent='✓ Foto terunggah. Klik “Simpan & Terbitkan” agar tampil di website.';
+    }catch(e){ status.textContent=''; toast(e.message,'galat'); }
+    btnUnggah.disabled=false;
+  });
+  btnHapus.addEventListener('click',()=>{ setP(root,f.p,''); muat(); status.textContent=''; tandai(); });
+  url.addEventListener('change',()=>{ setP(root,f.p,url.value.trim()); muat(); tandai(); });
+  muat();
+  wrap.append(h('div',{class:'lab'},f.label),
+    h('div',{class:'img-fld'},thumb,h('div',{class:'img-info'},
+      h('div',{class:'img-aksi'},btnUnggah,btnHapus),
+      h('details',null,h('summary',null,'Atau tempel alamat foto'),url),
+      status)),
+    f.bantuan?h('p',{class:'bantuan'},f.bantuan):null,file);
+  return wrap;
+}
+
+/* ---------- daftar teks sederhana ---------- */
+function blokDaftarTeks(b,prefix){
+  const path=prefix+b.p;
+  const box=h('div');
+  const dapat=()=>{ let a=getP(S.konten,path); if(!Array.isArray(a)){ a=[]; setP(S.konten,path,a); } return a; };
+  const gambar=fokus=>{
+    box.replaceChildren(); const arr=dapat();
+    if(!arr.length) box.append(h('p',{class:'kosong-daftar'},'Belum ada isi.'));
+    arr.forEach((v,i)=>{
+      const f={label:b.label+' '+(i+1),tipe:'teks'};
+      const inp=h('input',{type:'text',value:v,'aria-label':f.label,autocomplete:'off'});
+      const baris=h('div',{class:'row-teks'+(perlu(f,v)?' perlu':''),'data-path':path+'.'+i},inp,
+        h('button',{type:'button',class:'btn sek ikon','aria-label':'Naikkan',disabled:i===0,onclick:()=>{ [arr[i-1],arr[i]]=[arr[i],arr[i-1]]; gambar(i-1); tandai(); }},'↑'),
+        h('button',{type:'button',class:'btn sek ikon','aria-label':'Turunkan',disabled:i===arr.length-1,onclick:()=>{ [arr[i+1],arr[i]]=[arr[i],arr[i+1]]; gambar(i+1); tandai(); }},'↓'),
+        h('button',{type:'button',class:'btn bahaya ikon','aria-label':'Hapus',onclick:()=>{ if(confirm('Hapus poin ini?')){ arr.splice(i,1); gambar(); tandai(); } }},'🗑'));
+      inp.addEventListener('input',()=>{ arr[i]=inp.value; baris.classList.toggle('perlu',perlu(f,inp.value)); tandai(); });
+      box.append(baris);
+      if(fokus===i) setTimeout(()=>inp.focus(),0);
+    });
+    box.append(h('button',{type:'button',class:'btn sek kecil tambah',onclick:()=>{ arr.push(''); gambar(arr.length-1); tandai(); }},'＋ '+(b.tambah||'Tambah')));
+  };
+  gambar();
+  return h('section',{class:'kartu daftar-kartu'},h('h2',null,b.judul),box);
+}
+
+/* ---------- daftar kartu ---------- */
+function blokDaftar(b,prefix){
+  const path=prefix+b.p;
+  const box=h('div');
+  const dapat=()=>{ let a=getP(S.konten,path); if(!Array.isArray(a)){ a=[]; setP(S.konten,path,a); } return a; };
+  const gambar=buka=>{
+    box.replaceChildren(); const arr=dapat();
+    if(!arr.length) box.append(h('p',{class:'kosong-daftar'},'Belum ada isi. Klik tombol di bawah untuk menambah.'));
+    arr.forEach((it,i)=>{
+      const jdl=h('span',{class:'jdl'},b.judulItem(it,i));
+      const det=h('details',{class:'item',open:buka===i,'data-path':path+'.'+i},h('summary',null,h('span',{class:'no'},String(i+1)),jdl));
+      const isi=h('div',{class:'item-isi'},...b.fields.map(f=>kontrol(f,it,path+'.'+i+'.')));
+      isi.addEventListener('input',()=>{ jdl.textContent=b.judulItem(it,i); });
+      isi.addEventListener('change',()=>{ jdl.textContent=b.judulItem(it,i); });
+      const aksi=h('div',{class:'item-aksi'},
+        h('button',{type:'button',class:'btn sek kecil',disabled:i===0,onclick:()=>{ [arr[i-1],arr[i]]=[arr[i],arr[i-1]]; gambar(i-1); tandai(); }},'↑ Naikkan'),
+        h('button',{type:'button',class:'btn sek kecil',disabled:i===arr.length-1,onclick:()=>{ [arr[i+1],arr[i]]=[arr[i],arr[i+1]]; gambar(i+1); tandai(); }},'↓ Turunkan'),
+        h('button',{type:'button',class:'btn bahaya kecil',onclick:()=>{ if(confirm('Hapus “'+(b.judulItem(it,i)||b.nama)+'”? Tindakan ini baru berlaku di website setelah Anda menekan Simpan & Terbitkan.')){ arr.splice(i,1); gambar(); tandai(); } }},'🗑 Hapus'));
+      det.append(isi,aksi); box.append(det);
+    });
+    box.append(h('button',{type:'button',class:'btn sek kecil tambah',onclick:()=>{
+      if(b.baruDiAtas){ arr.unshift(b.baru()); gambar(0); } else { arr.push(b.baru()); gambar(arr.length-1); }
+      tandai();
+      const d=$('details[open]',box); if(d) d.scrollIntoView({block:'center',behavior:'smooth'});
+    }},'＋ '+(b.tambah||'Tambah')));
+  };
+  gambar();
+  return h('section',{class:'kartu daftar-kartu'},h('h2',null,b.judul),box);
+}
+
+/* ---------- galeri ---------- */
+function blokGaleri(b){
+  const path=b.p, box=h('div'), status=h('div',{class:'status',role:'status'});
+  const dapat=()=>{ let a=getP(S.konten,path); if(!Array.isArray(a)){ a=[]; setP(S.konten,path,a); } return a; };
+  const berkasBanyak=h('input',{type:'file',accept:'image/png,image/jpeg,image/webp,image/gif',multiple:true,hidden:true});
+  const gambar=()=>{
+    box.replaceChildren(); const arr=dapat();
+    if(!arr.length) box.append(h('p',{class:'kosong-daftar'},'Belum ada foto. Klik “Tambah foto” di bawah.'));
+    const grid=h('div',{class:'g-grid'});
+    arr.forEach((it,i)=>{
+      const thumb=h('div',{class:'thumb'},it.foto?h('img',{src:it.foto,alt:it.ket||'Foto '+(i+1)}):h('span',{class:'kosong'},'Foto bawaan (belum diganti)'));
+      const ket=h('input',{type:'text',value:it.ket||'',placeholder:'Keterangan foto','aria-label':'Keterangan foto '+(i+1),maxlength:'80'});
+      ket.addEventListener('input',()=>{ it.ket=ket.value; tandai(); });
+      const ganti=h('input',{type:'file',accept:'image/png,image/jpeg,image/webp,image/gif',hidden:true});
+      ganti.addEventListener('change',async()=>{
+        const f1=ganti.files[0]; ganti.value=''; if(!f1) return;
+        status.className='status proses';
+        try{ it.foto=await unggahFoto(f1,{maks:1400},t=>status.textContent=t); status.className='status'; status.textContent='✓ Foto diganti.'; gambar(); tandai(); }
+        catch(e){ status.textContent=''; toast(e.message,'galat'); }
+      });
+      grid.append(h('div',{class:'g-kartu','data-path':path+'.'+i+'.ket'},thumb,h('div',{class:'g-isi'},ket,
+        h('button',{type:'button',class:'btn sek kecil',onclick:()=>ganti.click()},'Ganti foto'),
+        h('div',{class:'g-aksi'},
+          h('button',{type:'button',class:'btn sek ikon','aria-label':'Geser ke depan',disabled:i===0,onclick:()=>{ [arr[i-1],arr[i]]=[arr[i],arr[i-1]]; gambar(); tandai(); }},'←'),
+          h('button',{type:'button',class:'btn sek ikon','aria-label':'Geser ke belakang',disabled:i===arr.length-1,onclick:()=>{ [arr[i+1],arr[i]]=[arr[i],arr[i+1]]; gambar(); tandai(); }},'→'),
+          h('button',{type:'button',class:'btn bahaya ikon','aria-label':'Hapus foto',onclick:()=>{ if(confirm('Hapus foto ini dari galeri?')){ arr.splice(i,1); gambar(); tandai(); } }},'🗑')),ganti)));
+    });
+    box.append(grid);
+  };
+  berkasBanyak.addEventListener('change',async()=>{
+    const daftar=[...berkasBanyak.files]; berkasBanyak.value=''; if(!daftar.length) return;
+    status.className='status proses'; let ok=0;
+    for(let i=0;i<daftar.length;i++){
+      try{
+        const u=await unggahFoto(daftar[i],{maks:1400},t=>status.textContent='Foto '+(i+1)+' dari '+daftar.length+': '+t);
+        const nama=daftar[i].name.replace(/\.[^.]*$/,'').replace(/[-_]+/g,' ').trim();
+        dapat().push({foto:u,ket:nama}); ok++; gambar();
+      }catch(e){ toast('“'+daftar[i].name+'”: '+e.message,'galat'); }
+    }
+    status.className='status'; status.textContent=ok?'✓ '+ok+' foto ditambahkan. Klik “Simpan & Terbitkan” agar tampil di website.':'';
+    if(ok) tandai();
+  });
+  gambar();
+  const tambah=h('button',{type:'button',class:'btn sek kecil tambah',onclick:()=>berkasBanyak.click()},'＋ Tambah foto (boleh banyak sekaligus)');
+  return h('section',{class:'kartu daftar-kartu'},h('h2',null,b.judul),box,tambah,status,berkasBanyak);
+}
+
+function renderBlok(b,root,prefix){
+  if(b.t==='grup') return h('section',{class:'kartu'},h('h2',null,b.judul),b.bantuan?h('p',{class:'bantuan',style:'margin:-.4rem 0 1rem'},b.bantuan):null,...b.fields.map(f=>kontrol(f,root,prefix)));
+  if(b.t==='daftarTeks') return blokDaftarTeks(b,prefix);
+  if(b.t==='daftar') return blokDaftar(b,prefix);
+  if(b.t==='galeri') return blokGaleri(b);
+  return h('div');
+}
+
+/* =========================================================
+   HALAMAN KHUSUS
+   ========================================================= */
+function halRingkasan(){
+  const el=[];
+  if(S.sandiAwal) el.push(h('div',{class:'banner'},h('div',{class:'teks'},h('strong',null,'Anda masih memakai sandi awal. '),'Demi keamanan, segera ganti sandi.'),h('button',{type:'button',class:'btn kecil',onclick:()=>tampilBagian('pengaturan')},'Ganti sandi')));
+  if(S.pertama) el.push(h('div',{class:'banner info'},h('div',{class:'teks'},h('strong',null,'Selamat datang! '),'Ini pertama kalinya dasbor dipakai, jadi isi website yang sekarang sudah dimuat di sini. Ubah seperlunya, lalu tekan ',h('b',null,'Simpan & Terbitkan'),' agar website membaca isi dari dasbor.')));
+  const sudah=S.diperbarui?'Terakhir diterbitkan: '+fmtWaktu(S.diperbarui):'Belum pernah diterbitkan.';
+  el.push(h('p',{style:'color:var(--lembut);margin-bottom:1rem'},sudah));
+  const n=(p)=>(getP(S.konten,p)||[]).length;
+  const tegel=(angka,label,id)=>h('button',{type:'button',onclick:()=>tampilBagian(id)},h('b',null,String(angka)),h('span',null,label));
+  el.push(h('div',{class:'tegel'},tegel(n('berita'),'Berita','berita'),tegel(n('galeri'),'Foto galeri','galeri'),tegel(n('program'),'Program','program'),tegel(n('fasilitas'),'Fasilitas','fasilitas'),tegel(n('testimoni'),'Testimoni','testimoni')));
+
+  const daftar=kumpulPerlu();
+  const kartu=h('section',{class:'kartu daftar-kartu'},h('h2',null,'✏️ Perlu dilengkapi ('+daftar.length+')'));
+  if(!daftar.length) kartu.append(h('p',{class:'kosong-daftar'},'Semua isian penting sudah lengkap. 🎉'));
+  else{
+    kartu.append(h('p',{class:'bantuan',style:'margin:-.3rem 0 .8rem'},'Isian bertanda [GANTI] atau yang masih kosong. Klik “Isi” untuk langsung menuju isiannya.'));
+    const list=h('div',{class:'perlu-daftar'});
+    daftar.slice(0,40).forEach(d=>list.append(h('div',{class:'perlu-baris'},
+      h('div',{class:'info'},h('b',null,d.bagian.judul+' › '+d.label),h('span',null,String(d.nilai||'(kosong)'))),
+      h('button',{type:'button',class:'btn sek kecil',onclick:()=>pindah(d.bagian.id,d.path)},'Isi'))));
+    kartu.append(list);
+    if(daftar.length>40) kartu.append(h('p',{class:'bantuan'},'…dan '+(daftar.length-40)+' lainnya.'));
+  }
+  el.push(kartu);
+  el.push(h('section',{class:'kartu daftar-kartu'},h('h2',null,'🚀 Pintasan'),
+    h('div',{class:'img-aksi'},
+      h('button',{type:'button',class:'btn sek kecil',onclick:()=>tampilBagian('beranda')},'Ganti foto utama'),
+      h('button',{type:'button',class:'btn sek kecil',onclick:()=>tampilBagian('galeri')},'Tambah foto galeri'),
+      h('button',{type:'button',class:'btn sek kecil',onclick:()=>{ tampilBagian('berita'); }},'Tulis berita'),
+      h('button',{type:'button',class:'btn sek kecil',onclick:()=>tampilBagian('kontak')},'Ubah kontak'))));
+  return el;
+}
+
+function halPengaturan(){
+  const el=[];
+  /* sandi */
+  const lama=h('input',{type:'password',id:'sLama',autocomplete:'current-password'});
+  const baru=h('input',{type:'password',id:'sBaru',autocomplete:'new-password'});
+  const ulang=h('input',{type:'password',id:'sUlang',autocomplete:'new-password'});
+  const gal=h('div',{class:'galat',role:'alert'});
+  const btn=h('button',{type:'submit',class:'btn'},'Simpan sandi baru');
+  const form=h('form',{onsubmit:async e=>{
+    e.preventDefault(); gal.textContent='';
+    if(baru.value.length<8){ gal.textContent='Sandi baru minimal 8 karakter.'; return; }
+    if(baru.value!==ulang.value){ gal.textContent='Pengulangan sandi tidak sama.'; return; }
+    btn.disabled=true;
+    try{ await api('gantiSandi',{lama:lama.value,baru:baru.value}); S.sandiAwal=false; lama.value=baru.value=ulang.value=''; toast('Sandi berhasil diganti.'); }
+    catch(er){ gal.textContent=er.message; }
+    btn.disabled=false;
+  }},
+    h('div',{class:'fld'},h('label',{for:'sLama'},'Sandi saat ini'),lama),
+    h('div',{class:'fld'},h('label',{for:'sBaru'},'Sandi baru'),baru,h('p',{class:'bantuan'},'Minimal 8 karakter.')),
+    h('div',{class:'fld'},h('label',{for:'sUlang'},'Ulangi sandi baru'),ulang),gal,btn);
+  el.push(h('section',{class:'kartu daftar-kartu'},h('h2',null,'🔑 Ganti sandi'),form));
+
+  /* riwayat */
+  const boxR=h('div');
+  const btnR=h('button',{type:'button',class:'btn sek kecil',onclick:async()=>{
+    btnR.disabled=true; boxR.replaceChildren(h('p',{class:'bantuan'},'Memuat…'));
+    try{
+      const j=await api('riwayat'); boxR.replaceChildren();
+      if(!j.daftar.length) boxR.append(h('p',{class:'kosong-daftar'},'Belum ada riwayat. Versi lama tersimpan setiap kali Anda menerbitkan perubahan.'));
+      j.daftar.forEach(v=>boxR.append(h('div',{class:'riwayat-baris'},h('span',null,fmtWaktu(v.waktu)),
+        h('button',{type:'button',class:'btn sek kecil',onclick:async()=>{
+          if(!confirm('Pulihkan versi '+fmtWaktu(v.waktu)+'?\n\nVersi ini akan langsung diterbitkan ke website. Versi yang sekarang tetap tersimpan di riwayat.')) return;
+          try{ const r=await api('pulihkan',{id:v.id}); S.konten=lengkapi(r.konten||{},BAWAAN); S.server=JSON.stringify(S.konten); S.diperbarui=r.diperbarui; S.pertama=false; simpanDraf(); perbaruiBilah(); toast('Versi berhasil dipulihkan dan diterbitkan.'); }
+          catch(er){ toast(er.message,'galat'); }
+        }},'Pulihkan'))));
+    }catch(er){ boxR.replaceChildren(); toast(er.message,'galat'); }
+    btnR.disabled=false;
+  }},'Tampilkan riwayat');
+  el.push(h('section',{class:'kartu daftar-kartu'},h('h2',null,'🕘 Riwayat versi'),h('p',{class:'bantuan',style:'margin-top:-.3rem'},'20 versi terakhir disimpan otomatis. Gunakan ini bila ada isi yang terhapus atau salah terbit.'),btnR,h('div',{style:'margin-top:.8rem'},boxR)));
+
+  /* cadangan */
+  const impor=h('input',{type:'file',accept:'application/json,.json',hidden:true,onchange:async()=>{
+    const f1=impor.files[0]; impor.value=''; if(!f1) return;
+    try{
+      const o=JSON.parse(await f1.text());
+      if(!o||typeof o!=='object'||Array.isArray(o)) throw new Error('x');
+      if(!confirm('Muat isi dari berkas cadangan ini? Isi di layar akan diganti (belum terbit sampai Anda menekan Simpan & Terbitkan).')) return;
+      S.konten=lengkapi(o,BAWAAN); tandai(); perbaruiBilah(); toast('Cadangan dimuat. Periksa, lalu klik Simpan & Terbitkan.');
+    }catch(e){ toast('Berkas cadangan tidak valid.','galat'); }
+  }});
+  el.push(h('section',{class:'kartu daftar-kartu'},h('h2',null,'💾 Cadangan'),
+    h('p',{class:'bantuan',style:'margin-top:-.3rem'},'Unduh salinan seluruh isi website sebagai berkas, atau muat kembali dari berkas tersebut.'),
+    h('div',{class:'img-aksi'},
+      h('button',{type:'button',class:'btn sek kecil',onclick:()=>{
+        const a=h('a',{href:URL.createObjectURL(new Blob([JSON.stringify(S.konten,null,1)],{type:'application/json'})),download:'cadangan-website-'+new Date().toISOString().slice(0,10)+'.json'});
+        document.body.append(a); a.click(); a.remove();
+      }},'⬇ Unduh cadangan'),
+      h('button',{type:'button',class:'btn sek kecil',onclick:()=>impor.click()},'⬆ Muat dari cadangan'),
+      h('button',{type:'button',class:'btn bahaya kecil',onclick:()=>{
+        if(!confirm('Kembalikan SEMUA isi ke bawaan awal? Isi di layar akan diganti (belum terbit sampai Anda menekan Simpan & Terbitkan).')) return;
+        S.konten=klon(BAWAAN); tandai(); perbaruiBilah(); tampilBagian('pengaturan'); toast('Isi dikembalikan ke bawaan. Klik Simpan & Terbitkan bila sudah yakin.');
+      }},'Kembalikan ke isi bawaan')),impor));
+
+  /* koneksi */
+  el.push(h('section',{class:'kartu daftar-kartu'},h('h2',null,'🔗 Koneksi'),
+    h('p',{class:'bantuan',style:'margin-top:-.3rem'},'Alamat API yang dipakai dasbor ini:'),
+    h('p',{style:'word-break:break-all;font-size:.85rem;background:var(--marun-muda);padding:.6rem .8rem;border-radius:10px'},apiUrl()||'(belum diisi)'),
+    h('p',{class:'bantuan'},'Foto yang sudah tidak dipakai tetap tersimpan di folder Google Drive “Website Muadalah Wustha Al-Amiriyyah > gambar”. Anda boleh menghapusnya langsung dari Drive bila perlu.')));
+  return el;
+}
+
+/* =========================================================
+   NAVIGASI & TAMPILAN
+   ========================================================= */
+function bangunNav(){
+  const nav=$('#nav'); nav.replaceChildren();
+  BAGIAN.forEach(b=>{
+    const a=h('a',{href:'#'+b.id,'data-id':b.id},h('span',{'aria-hidden':'true'},b.ikon),h('span',null,b.judul),h('span',{class:'cnt','data-b':b.id,title:'Isian perlu dilengkapi'}));
+    a.addEventListener('click',e=>{ e.preventDefault(); tampilBagian(b.id); });
+    nav.append(a);
+  });
+}
+function tampilBagian(id){
+  const b=BAGIAN.find(x=>x.id===id)||BAGIAN[0]; S.bagian=b.id;
+  $$('#nav a').forEach(a=>{
+    const on=a.dataset.id===b.id; a.classList.toggle('aktif',on);
+    if(on){ a.setAttribute('aria-current','page'); if(window.innerWidth<=900) a.scrollIntoView({block:'nearest',inline:'center'}); } else a.removeAttribute('aria-current');
+  });
+  const u=$('#utama'); u.replaceChildren();
+  u.append(h('div',{class:'judul-bagian'},h('h1',null,b.ikon+' '+b.judul),b.desk?h('p',null,b.desk):null));
+  if(b.khusus==='ringkasan') u.append(...halRingkasan());
+  else if(b.khusus==='pengaturan') u.append(...halPengaturan());
+  else u.append(...b.isi.map(x=>renderBlok(x,S.konten,'')));
+  window.scrollTo({top:0});
+  if(location.hash!=='#'+b.id) history.replaceState(null,'','#'+b.id);
+  perbaruiBilah();
+}
+function pindah(id,path){
+  tampilBagian(id);
+  setTimeout(()=>{
+    const e=$('[data-path="'+CSS.escape(path)+'"]'); if(!e) return;
+    const d=e.closest('details'); if(d) d.open=true;
+    e.scrollIntoView({block:'center'}); e.classList.add('kilat');
+    const inp=$('input:not([type=file]),textarea,select',e)||$('button',e); if(inp) inp.focus({preventScroll:true});
+    setTimeout(()=>e.classList.remove('kilat'),1700);
+  },60);
+}
+function perbaruiBilah(){
+  const k=kotor(), semua=kumpulPerlu();
+  $('#bilah').classList.toggle('kotor',k);
+  $('#bilahStatus').replaceChildren(
+    h('strong',null,k?'Ada perubahan yang belum diterbitkan':'Semua perubahan sudah terbit'),
+    semua.length?h('span',{class:'peringatan'},semua.length+' isian perlu dilengkapi'):h('span',{style:'color:var(--lembut)'},'Semua isian penting sudah lengkap'));
+  $('#btnSimpan').disabled=!k||S.sibuk;
+  $('#btnBatal').hidden=!k||S.pertama;
+  $$('#nav .cnt').forEach(c=>{ const n=semua.filter(x=>x.bagian.id===c.dataset.b).length; c.textContent=n||''; c.classList.toggle('ada',n>0); });
+}
+
+/* =========================================================
+   SIMPAN, MASUK, KELUAR
+   ========================================================= */
+async function simpan(){
+  const sisa=kumpulPerlu().length;
+  if(sisa&&!confirm('Masih ada '+sisa+' isian yang belum lengkap (bertanda [GANTI] atau kosong).\n\nTetap terbitkan ke website sekarang?')) return;
+  S.sibuk=true; $('#btnSimpan').textContent='Menerbitkan…'; perbaruiBilah();
+  try{
+    const j=await api('simpan',{konten:S.konten});
+    S.server=JSON.stringify(S.konten); S.diperbarui=j.diperbarui||new Date().toISOString(); S.pertama=false;
+    try{ localStorage.removeItem(KD); }catch(e){}
+    toast('✓ Berhasil diterbitkan. Website akan menampilkan perubahan saat dibuka/dimuat ulang.');
+    if(S.bagian==='ringkasan') tampilBagian('ringkasan');
+  }catch(e){ toast(e.message,'galat'); }
+  S.sibuk=false; $('#btnSimpan').textContent='Simpan & Terbitkan'; perbaruiBilah();
+}
+function batal(){
+  if(!confirm('Buang semua perubahan yang belum diterbitkan dan kembali ke versi terakhir yang terbit?')) return;
+  S.konten=JSON.parse(S.server); try{ localStorage.removeItem(KD); }catch(e){}
+  tampilBagian(S.bagian); toast('Perubahan dibuang.');
+}
+async function muatKonten(){
+  const j=await bacaPublik();
+  const k=j.konten||{}; S.diperbarui=j.diperbarui||null;
+  if(!Object.keys(k).length){ S.konten=klon(BAWAAN); S.server='{}'; S.pertama=true; }
+  else{ S.konten=lengkapi(k,BAWAAN); S.server=JSON.stringify(S.konten); S.pertama=false; }
+  /* draf dari sesi sebelumnya */
+  try{
+    const d=JSON.parse(localStorage.getItem(KD)||'null');
+    if(d&&d.konten&&JSON.stringify(d.konten)!==JSON.stringify(S.konten)) S.draf=d;
+    else S.draf=null;
+  }catch(e){ S.draf=null; }
+}
+function tampilLogin(pesan){
+  $('#app').hidden=true; $('#login').hidden=false;
+  const perluApi=!KONFIG.apiUrl; $('#bagApi').hidden=!perluApi;
+  if(perluApi) $('#inApi').value=localStorage.getItem(KA)||'';
+  $('#galatLogin').textContent=pesan||''; $('#btnMasuk').disabled=false; $('#btnMasuk').textContent='Masuk';
+  setTimeout(()=>{ (perluApi&&!$('#inApi').value?$('#inApi'):$('#inSandi')).focus(); },50);
+}
+function keluarPaksa(pesan){ hapusSesi(); S.token=null; tampilLogin(pesan); }
+function masukApp(){
+  $('#login').hidden=true; $('#app').hidden=false;
+  $('#lihatSitus').href=KONFIG.situsUrl;
+  bangunNav();
+  const awal=(location.hash||'').slice(1);
+  tampilBagian(BAGIAN.some(b=>b.id===awal)?awal:'ringkasan');
+  if(S.draf){
+    const u=$('#utama');
+    u.insertBefore(h('div',{class:'banner',id:'bannerDraf'},h('div',{class:'teks'},h('strong',null,'Ada perubahan tersimpan dari sesi sebelumnya '),'(belum diterbitkan, '+fmtWaktu(S.draf.waktu)+').'),
+      h('button',{type:'button',class:'btn kecil',onclick:()=>{ S.konten=lengkapi(S.draf.konten,BAWAAN); S.draf=null; tampilBagian(S.bagian); toast('Perubahan sebelumnya dipulihkan.'); }},'Lanjutkan'),
+      h('button',{type:'button',class:'btn sek kecil',onclick:()=>{ S.draf=null; try{localStorage.removeItem(KD);}catch(e){} $('#bannerDraf').remove(); }},'Buang')),u.children[1]);
+  }
+}
+
+$('#lihatSandi').addEventListener('click',()=>{ const i=$('#inSandi'); i.type=i.type==='password'?'text':'password'; });
+$('#formLogin').addEventListener('submit',async e=>{
+  e.preventDefault();
+  const galat=$('#galatLogin'), btn=$('#btnMasuk'); galat.textContent='';
+  if(!KONFIG.apiUrl){
+    const u=$('#inApi').value.trim();
+    if(!/^https:\/\/script\.google\.com\/macros\/s\/[^\s]+\/exec$/.test(u)&&!/^http:\/\/(localhost|127\.0\.0\.1)/.test(u)){ galat.textContent='Alamat API tidak sesuai. Salin “URL aplikasi web” dari Apps Script (berakhiran /exec).'; return; }
+    try{ localStorage.setItem(KA,u); }catch(er){}
+  }
+  btn.disabled=true; btn.textContent='Memeriksa…';
+  try{
+    const j=await api('masuk',{sandi:$('#inSandi').value});
+    S.token=j.token; S.sandiAwal=!!j.sandiAwal; simpanSesi($('#inIngat').checked,j);
+    $('#inSandi').value='';
+    btn.textContent='Memuat isi website…'; await muatKonten(); masukApp();
+  }catch(er){ galat.textContent=er.message; btn.disabled=false; btn.textContent='Masuk'; }
+});
+$('#btnSimpan').addEventListener('click',simpan);
+$('#btnBatal').addEventListener('click',batal);
+$('#btnKeluar').addEventListener('click',async()=>{
+  if(kotor()&&!confirm('Ada perubahan yang belum diterbitkan. Perubahan disimpan sementara di perangkat ini, tetapi belum tampil di website.\n\nTetap keluar?')) return;
+  try{ await api('keluar'); }catch(e){}
+  hapusSesi(); S.token=null; tampilLogin();
+});
+window.addEventListener('beforeunload',e=>{ if(S.token&&kotor()&&!S.pertama){ e.preventDefault(); e.returnValue=''; } });
+window.addEventListener('hashchange',()=>{ const id=(location.hash||'').slice(1); if(S.token&&id&&id!==S.bagian&&BAGIAN.some(b=>b.id===id)) tampilBagian(id); });
+
+(async function mulai(){
+  const s=bacaSesi();
+  if(s&&apiUrl()){
+    S.token=s.token; S.sandiAwal=s.sandiAwal;
+    try{ await muatKonten(); masukApp(); return; }catch(e){ hapusSesi(); S.token=null; }
+  }
+  tampilLogin();
+})();
+
+$('#bilah').addEventListener('click',()=>{});
+})();
+</script>
+</body>
+</html>
